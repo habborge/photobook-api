@@ -1,11 +1,12 @@
 const express = require('express');
 
-const api = require('./api');
+const api = require('./api/v1');
 
 const app = express();
 
 // Setup router and routes
 app.use('/api', api);
+app.use('/api/v1', api);
 
 // No route found handler
 app.use((req, res, next) => {
