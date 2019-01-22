@@ -18,6 +18,9 @@
   "author": "Gustavo Morales",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "nodemon": "^1.18.9"
   }
 }
