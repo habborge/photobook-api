@@ -1,13 +1,23 @@
 {
   "name": "photobook",
   "version": "1.0.0",
-  "description": "",
+  "description": "Photobook REST API",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon",
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "nodejs",
+    "api",
+    "javascript",
+    "express",
+    "mongodb"
+  ],
+  "author": "Gustavo Morales",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
