@@ -1,12 +1,11 @@
 const express = require('express');
 
+const api = require('./api');
+
 const app = express();
 
-app.get('/', (req, res, next) => {
-  res.json({
-    message: 'Welcome to the API',
-  });
-});
+// Setup router and routes
+app.use('/api', api);
 
 // No route found handler
 app.use((req, res, next) => {
